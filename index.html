@@ -1,232 +1,790 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title> </title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.slidertron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
 
-		<!-- Header -->
-			<header id="header" class="alt skel-layers-fixed">
-			
-				<nav id="nav">
+<head>
+	<title> </title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/jquery.scrollgress.min.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/jquery.slidertron.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
+	</noscript>
+</head>
+
+<body class="landing">
+
+	<!-- Header -->
+	<header id="header" class="alt skel-layers-fixed">
+
+		<nav id="nav">
+			<ul>
+				<li>
+					<b><a style="color:black" href="index.html">Home</a></b>
+				</li>
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#one">Introdução</a></b>
 					<ul>
-						<li><b><a style="color:black" href="index.html">Home</a></b></li></b>
-						<li><b><a style="color:black" href="index.html">Introdução</a></b></li>
-						<li><b><a style="color:black" href="index.html">Componentes e Padrões</a></b></li>
-						<li><b><a style="color:black"  href="index.html">Protocolos</a></b></li>
-						<li><b><a style="color:black" href="index.html">Conclusão</a></b></li>
-						<li><b><a style="color:black"  href="index.html">Perguntas</a></b></li>
-						<li><b><a style="color:black"  href="index.html">Bibliografia</a></b></li>
+						<li><a href="#one.2">O que são Redes de Sensores Sem Fio?</a></li>
+						<li><a href="#one.3">Como funciona o Roteamento de Redes de Sensores Sem Fio?</a></li>
+						<li>
+							<a class="icon fa-angle-right" href=""> Características das Redes de Sensores Sem Fio </a>
+							<ul>
+								<li><a href="#one.3.1">Características gerais</a></li>
+								<li><a href="#one.3.2">Segurança</a></li>
+								<li><a href="#one.3.3">Eficiência energética</a></li>
+							</ul>
+						</li>
 					</ul>
-				</nav>
+				</li>
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#two">Componentes e Padrões</a></b>
+					<ul>
+						<li>
+							<a class="icon fa-angle-right" href="#two"> Topologia de Redes de Sensores Sem Fio </a>
+							<ul>
+								<li><a href="#two.1.1">Estrela</a></li>
+								<li><a href="#two.1.2">Árvore ou Cluster</a></li>
+								<li><a href="#two.1.3">Malha</a></li>
+							</ul>
+						</li>
+						<li><a href="#two.2">Nodos Sensores</a></li>
+						<li><a href="#two.3">Nodos de Interface com outras Redes (Gateways)
+							</a></li>
+						<li><a href="#two.4">Interconexão de Sensores e Atuadores</a></li>
+
+					</ul>
+				</li>
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#three">Algorítmos</a></b>
+					<ul>
+						<li><a href="#three">Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</a></li>
+					</ul>
+				</li>
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#four">Aplicações</a></b>
+					<ul>
+						<li><a href="#four">Cidades Inteligentes</a></li>
+						<li><a href="#four">Monitoramento Climático e Ambiental</a></li>
+						<li><a href="#four">Saúde Digital</a></li>
+					</ul>
+				</li>
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#five">Protocolos</a></b>
+					<ul>
+						<li><a href="#five">Wi-fi - IEEE 802.11</a></li>
+						<li><a href="#five">Bluetooth - IEEE 802.15.1</a></li>
+						<li><a href="#five">ZigBee - IEEE 802.15.4</a></li>
+						<li><a href="#five">Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</a></li>
+						<li><a href="#five">TCP/IP em Rede de Sensores Sem Fio</a></li>
+					</ul>
+				</li>
+				<li><b><a style="color:black" href="#six">Conclusão</a></b></li>
+				<li><b><a style="color:black" href="#seven">Perguntas</a></b></li>
+				<li><b><a style="color:black" href="#eight">Bibliografia</a></b></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<h2>Protocolos de Roteamento <br>para Redes de Sensores sem fio</h2>
+			<b>
+				<p style="color:white">Autores: Luiza Lissandra & Lucas Tavares</p>
+			</b>
+			<ul class="actions">
+				<br>
+				<li><a href="#one" class="button big scrolly">Introdução</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- One -->
+	<section id="one" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Introdução</h2>
 			</header>
-
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h2>Protocolos de Roteamento <br>para Redes de Sensores sem fio</h2>
-				<b><p style="color:white">Autores: Luiza Lissandra &	 Lucas Tavares</p></b>
-					<ul class="actions">
-						<br>
-						<li><a href="#one" class="button big scrolly">Introdução</a></li>
-					</ul>
-				</div>
+			<section>
+				<header>
+					<h3 id="one.2">O que são Redes de Sensores Sem Fio?</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
 			</section>
-
-		<!-- One -->
-			<section id="one" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Introdução</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="slider">
-						<span class="nav-previous"></span>
-						<div class="viewer">
-							<div class="reel">
-								<div class="slide">
-									<img src="images/slide01.jpg" alt="" />
-								</div>
-								<div class="slide">
-									<img src="images/slide02.jpg" alt="" />
-								</div>
-								<div class="slide">
-									<img src="images/slide03.jpg" alt="" />
-								</div>
-							</div>
+			<div class="slider">
+				<span class="nav-previous"></span>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							<img src="images/slide01.jpg" alt="" />
 						</div>
-						<span class="nav-next"></span>
-					</div>
-				</div>
-			</section>
-			
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="container">
-					<div class="row uniform">
-						<div class="4u 6u(2) 12u$(3)">
-							<section class="feature fa-briefcase">
-								<h3>Natoque phasellus</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
+						<div class="slide">
+							<img src="images/slide02.jpg" alt="" />
 						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<section class="feature fa-code">
-								<h3>Ultricies dolore</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
-							<section class="feature fa-save">
-								<h3>Magna lacinia</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<section class="feature fa-desktop">
-								<h3>Praesent lacinia</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u 6u(2) 12u$(3)">
-							<section class="feature fa-camera-retro">
-								<h3>Morbi semper</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u$ 6u$(2) 12u$(3)">
-							<section class="feature fa-cog">
-								<h3>Arcu consequat</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
+						<div class="slide">
+							<img src="images/slide03.jpg" alt="" />
 						</div>
 					</div>
 				</div>
+				<span class="nav-next"></span>
+			</div>
+			<br><br>
+
+			<section>
+				<header>
+					<h3 id="one.3">Como funciona o Roteamento de Redes de Sensores Sem Fio? </h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
 			</section>
-			
-		<!-- Three -->
-			<section id="three" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Amet nisl consequat</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="row">
-						<div class="4u 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-								<h3>Sed amet lorem</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
+			<br><br>
+			<section>
+				<header>
+					<h3>Características das Redes de Sensores Sem Fio</h3>
+				</header>
+				<ul>
+					<h4>
+						<li id="one.3.1">Características gerais</li>
+					</h4>
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+					<h4>
+						<li id="one.3.2">Segurança</li>
+					</h4>
+
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+					<h4>
+						<li id="one.3.3">Eficiência energética</li>
+					</h4>
+
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+				</ul>
+
+			</section>
+		</div>
+	</section>
+
+	<!-- Two -->
+	<section id="two" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Componentes e Padrões</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Topologia de Redes de Sensores Sem Fio</h3>
+				</header>
+				<ul>
+					<h4>
+						<li id="two.1.1">Estrela</li>
+					</h4>
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+					<h4>
+						<li id="two.1.2">Árvore ou Cluster</li>
+					</h4>
+
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+					<h4>
+						<li id="two.1.3">Malha</li>
+					</h4>
+
+					<p>
+					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+					</p>
+				</ul>
+
+			</section>
+			<section>
+				<header>
+					<h3 id="two.2">Nodos Sensores</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h3 id="two.3">Nodos de Interface com outras redes (Gateways)</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h3 id="two.4">Interconexão de Sensores e Atuadores</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<div class="slider">
+				<span class="nav-previous"></span>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							<img src="images/slide01.jpg" alt="" />
 						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Massa accumsan</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
+						<div class="slide">
+							<img src="images/slide02.jpg" alt="" />
 						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<h3>Faucibus portitor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-								<h3>Non placerat</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-								<h3>Adipiscing dolor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u$ 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<h3>Feugiat tempus</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
+						<div class="slide">
+							<img src="images/slide03.jpg" alt="" />
 						</div>
 					</div>
 				</div>
-			</section>
-			
-		<!-- CTA -->
-			<section id="cta" class="wrapper style3">
-				<h2>Sed faucibus et consequat</h2>
-				<ul class="actions">
-					<li><a href="#" class="button big">Get Started</a></li>
-				</ul>
-			</section>
-			
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
-				</ul>
-				<ul class="menu">
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Terms of Use</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<span class="copyright">
-					<!-- &copy; Copyright. All rights reserved. Design by <a href="http://www.html5webtemplates.co.uk">Responsive Web Templates</a> -->
-				</span>
-			</footer>
+				<span class="nav-next"></span>
+			</div>
 
-	</body>
+		</div>
+	</section>
+	<!-- Three -->
+
+	<section id="three" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Algorítmos</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<div class="slider">
+				<span class="nav-previous"></span>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							<img src="images/slide01.jpg" alt="" />
+						</div>
+						<div class="slide">
+							<img src="images/slide02.jpg" alt="" />
+						</div>
+						<div class="slide">
+							<img src="images/slide03.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<span class="nav-next"></span>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Four -->
+
+	<section id="four" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Aplicações</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Cidades Inteligentes</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<div class="slider">
+				<span class="nav-previous"></span>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							<img src="images/slide01.jpg" alt="" />
+						</div>
+						<div class="slide">
+							<img src="images/slide02.jpg" alt="" />
+						</div>
+						<div class="slide">
+							<img src="images/slide03.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<span class="nav-next"></span>
+			</div>
+			<br><br>
+
+			<section>
+				<header>
+					<h3>Monitoramento Climático e Ambiental </h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+			<br><br>
+
+			<section>
+				<header>
+					<h3>Saúde Digital</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+		</div>
+	</section>
+	<!-- Five -->
+
+	<section id="five" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Protocolos</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Wi-fi - IEEE 802.11</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+			<section>
+				<header>
+					<h3>Bluetooth - IEEE 802.15.1</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+			<section>
+				<header>
+					<h3>ZigBee - IEEE 802.15.4</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+			<section>
+				<header>
+					<h3>Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+			<section>
+				<header>
+					<h3>TCP/IP em Rede de Sensores Sem Fio</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+
+
+		</div>
+	</section>
+	<!-- Six -->
+
+	<section id="six" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Conclusão</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Conclusão</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
+				</header>
+			</section>
+		</div>
+	</section>
+	<!-- Seven -->
+
+	<section id="seven" class="wrapper style1">
+
+		<div class="container">
+			<header class="major">
+				<h2>Perguntas</h2>
+			</header>
+			<section>
+				<header>
+					<h2>
+						<p>Pergunta 1</p>
+					</h2>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h2>
+						<p>Pergunta 2</p>
+					</h2>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h2>
+						<p>Pergunta 3</p>
+					</h2>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h2>
+						<p>Pergunta 4</p>
+					</h2>
+				</header>
+			</section>
+			<section>
+				<header>
+					<h2>
+						<p>Pergunta 5</p>
+					</h2>
+				</header>
+			</section>
+		</div>
+	</section>
+
+	<!-- Eight -->
+	<section id="eight" class="wrapper style1">
+		<div class="container">
+			<header class="major">
+				<h2>Bibliofrafia</h2>
+			</header>
+			<section>
+				<ul>
+					<li>Title: Routing Protocols for Wireless Sensor Networks
+						Author(s): Zahoor Khan
+						Publisher: LAP Lambert Academic Publishing
+						Year: 2013
+					</li>
+					<li>
+						Title: Advanced Wireless Sensor Network Applications, Protocols and Architectures
+						Author(s): Nagesh Kumar and Yashwant Singh
+						Publisher: -
+						Year: 2017
+					</li>
+					<li>
+						Title: Wireless Sensor Networks
+						Author(s): Ian F. Akyildiz and Mehmet Can Vuran
+						Publisher: Wiley
+						Year: 2010
+					</li>
+					<li>
+						Title: Advanced Routing Protocols for Wireless Networks
+						Author(s): Miguel Elias Mitre Campista and Marcelo G. Rubinstein
+						Publisher: Wiley
+						Year: 2014
+					</li>
+					<li>
+						Title: Routing protocols in wireless sensor network
+						Author(s): Vasanthi V.
+						Publisher: LAP LAMBERT Academic Publishing
+						Year: 2016
+					</li>
+					<li>
+						Title: A Comprehensive Routing Protocol in Wireless Sensor Network Based on Ant Colony
+						Algorithm
+						Author(s): Wenjing Guo, Wei Zhang and Gang Lu
+						Publisher: IEEE
+						Year: 2010
+					</li>
+					<li>
+						Title: Wireless sensor networks: Routing protocols and security issues
+						Author(s): Anjali, Shikha and Mohit Sharma
+						Publisher: IEEE
+						Year: 2014
+					</li>
+					<li>
+						Title: Routing Protocols for Wireless Sensor Networks
+						Author(s): Basil Etefia
+						Publisher: -
+						Year: 2014
+					</li>
+					<li>
+						Title: Routing protocols for wireless sensor networks: What the literature says?
+						Author(s): Amit Sarkar and T. Senthil Murugan
+						Publisher: Alexandria Engineering Journal
+						Year: 2016
+					</li>
+					<li>
+						Title: An Energy Efficient Routing Protocol for Wireless Sensor Networks using A-star
+						Algorithm
+						Author(s): Ali Ghaffari
+						Publisher: Journal of applied research and technology
+						Year: 2014
+					</li>
+					<li>
+						Title: Routing Protocols for Wireless Sensor Networks (WSNs)
+						Author(s): Noman Shabbir and Syed Rizwan Hassan
+						Publisher: -
+						Year: 2017
+					</li>
+					<li>
+						Title: Routing Protocols in Wireless Sensor Networks – A Survey
+						Author(s): Shio Kumar Singh, M P Singh and D K Singh
+						Publisher: International Journal of Computer Science & Engineering Survey (IJCSES)
+						Year: 2010
+					</li>
+					<li>
+						Title: A survey on routing protocols for wireless sensor networks
+						Author(s): Kemal Akkaya and Mohamed Younis
+						Publisher: -
+						Year: 2003
+					</li>
+					<li>
+						Title: A Survey on Cluster Based Routing Protocols in Wireless Sensor Networks
+						Author(s): Santar Pal Singh and S.C.Sharma
+						Publisher: -
+						Year: 2015
+					</li>
+					<li>
+						Title: An Energy Efficient Level Based Clustering Routing Protocol For Wireless Sensor Networks
+						Author(s): Meenakshi Diwakar and Sushil Kumar
+						Publisher: International Journal of Advanced Smart Sensor Network Systems
+						Year: 2012
+					</li>
+		</div>
+	</section>
+
+
+
+	<!-- Footer -->
+	<footer id="footer">
+
+		<span class="copyright">
+			&copy; Copyright. UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ
+			<div class="center">Authors: Luiza Lissandra & Lucas Tavares</div>
+		</span>
+	</footer>
+
+</body>
+
 </html>
