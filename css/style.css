@@ -1372,4 +1372,6 @@
 			font-size: 0.8em;
 		}
 
-		
+		.align{
+			text-align: justify;
+		}
