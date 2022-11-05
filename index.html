@@ -38,14 +38,10 @@
 
 <body class="landing">
 
-	<!-- [ ] Header -->
+	<!-- [OK] Header -->
 	<header id="header" class="alt skel-layers-fixed">
 		<nav id="nav">
 			<ul>
-
-				<li>
-					<b><a style="color:black" href="index.html">Home</a></b>
-				</li>
 
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#one">Introdução</a></b>
 					<ul>
@@ -55,8 +51,8 @@
 							<a class="icon fa-angle-right" href="">Características das Redes de Sensores Sem Fio</a>
 							<ul>
 								<li><a href="#one.3.1">Características Gerais</a></li>
-								<li><a href="#one.3.2">Segurança</a></li>
-								<li><a href="#one.3.3">Eficiência Energética</a></li>
+								<li><a href="#one.3.2">Eficiência Energética</a></li>
+								<li><a href="#one.3.3">Topologia</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -64,23 +60,9 @@
 
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#two">Componentes e Padrões</a></b>
 					<ul>
-						<li>
-							<a class="icon fa-angle-right" href="#two">Topologia de Redes de Sensores Sem Fio</a>
-							<ul>
-								<li><a href="#two.1.1">Estrela</a></li>
-								<li><a href="#two.1.2">Árvore ou Cluster</a></li>
-								<li><a href="#two.1.3">Malha</a></li>
-							</ul>
-						</li>
 						<li><a href="#two.2">Nodos Sensores</a></li>
 						<li><a href="#two.3">Nodos de Interface com outras Redes (Gateways)</a></li>
 						<li><a href="#two.4">Interconexão de Sensores e Atuadores</a></li>
-					</ul>
-				</li>
-
-				<li><b><a class="icon fa-angle-down" style="color:black" href="#three">Algoritmos</a></b>
-					<ul>
-						<li><a href="#three">Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</a></li>
 					</ul>
 				</li>
 
@@ -98,11 +80,12 @@
 
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#five">Protocolos</a></b>
 					<ul>
-						<li><a href="#five">Wi-fi - IEEE 802.11</a></li>
-						<li><a href="#five">Bluetooth - IEEE 802.15.1</a></li>
-						<li><a href="#five">ZigBee - IEEE 802.15.4</a></li>
-						<li><a href="#five">Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</a></li>
-						<li><a href="#five">TCP/IP em Rede de Sensores Sem Fio</a></li>
+						<li><a href="#five.1">Wi-fi - IEEE 802.11</a></li>
+						<li><a href="#five.2">Bluetooth - IEEE 802.15.1</a></li>
+						<li><a href="#five.3">ZigBee - IEEE 802.15.4</a></li>
+						<li><a href="#five.4">Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</a></li>
+						<li><a href="#five.5">Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</a></li>
+						<li><a href="#five.6">TCP/IP em Rede de Sensores Sem Fio</a></li>
 					</ul>
 				</li>
 
@@ -122,7 +105,7 @@
 	<!-- [OK] Banner -->
 	<section id="banner">
 		<div class="inner">
-			<h2>Protocolos de Roteamento <br>para Redes de Sensores Sem fio</h2>
+			<h2>Protocolos de Roteamento <br>para Redes de Sensores Sem Fio</h2>
 			<b>
 				<p style="color:white; text-align: center;">Autores: Luiza Lissandra & Lucas Tavares</p>
 			</b>
@@ -133,7 +116,7 @@
 		</div>
 	</section>
 
-	<!-- [ ] One - Introdução -->
+	<!-- [OK] One - Introdução -->
 	<section id="one" class="wrapper style2">
 
 		<div class="container">
@@ -202,62 +185,38 @@
 				</header>
 
 				<ul>
-					<h4>
-						<li id="one.3.1">Características gerais</li>
-					</h4>
 
-					<p>
-						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
+					<li id="one.3.1">
+						<h4> Características gerais </h4>
 
-					<h4>
-						<li id="one.3.2">Segurança</li>
-					</h4>
+						<p>
+							<h5> 
+								As características gerais das redes de sensores sem fio dependem de sua aplicação, porém podemos citar algumas, como limitação de energia disponível, agregação dos 
+								dados (capacidade da rede de agregar dados), restrições dos dados coletados (por exemplo, tempo de expiração ou validade), quantidade e mobilidade dos sensores (quantidade necessária para que o sistema funcione, altamente relacionado a escalabilidade e se é possível mover o sistema) e endereçamento dos sensores ou nodos (necessidade ou não de identificação de cada sensor do sistema). 
+							</h5>
+						</p>
 
-					<p>
-						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
+					</li>
+			
+					<li id="one.3.2">
+						<h4> Eficiência energética </h4>
 
-					<h4>
-						<li id="one.3.3">Eficiência energética</li>
-					</h4>
+						<p>
+							<h5> 
+								Como já foi abordado e será mais trabalhado ao longo deste trabalho, a eficiência energética é um importante ponto das Redes de Sensores Sem Fio pois os nós possuem baixa reserva de energia e dependendo do local de implementação do sistema podem existir dificuldades relacionadas à troca de bateria ou dos próprios dispositivos. Além disso, o tempo de vida útil da rede é medido do início do sistema até que um nó falhe, ou seja, a eficiência energética amplifica o tempo de vida útil de toda a rede. Portanto, protocolos de roteamento que possibilitem uma eficiência energética devem ser prioridade ao lidar com RSSFs.
+							</h5>
+						</p>
+					</li>
 
-					<p>
-						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
+					<li id="one.3.3">
+						<h4> Topologia </h4>
+
+						<p>
+							<h5>
+								Uma topologia de rede é o posicionamento ao qual se organiza os elementos de uma rede de comunicação, no caso de uma Rede de Sensores Sem Fio existem três topologias que são mais usadas: estrela, árvore (star/router) e malha (mesh). Na topologia de estrela cada nó transmite diretamente para um gateway ou receptor, já na árvore há a possibilidade de cada nó se comunicar com os nós roteadores até que os dados cheguem no gateway e na de malha há redundância das rotas de comunicação, permitindo que cada nó possa se comunicar com os outros.
+							</h5>
+						</p>
+					</li>
 				</ul>
 
 			</section>
@@ -265,18 +224,12 @@
 		</div>
 	</section>
 
-	<!-- [ ] Two - Componentes e Padrão -->
+	<!-- [OK] Two - Componentes e Padrão -->
 	<section id="two" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
 				<h2>Componentes e Padrões</h2>
-			</header>
-
-			<section>
-				<header>
-					<h3>Topologia de Redes de Sensores Sem Fio</h3>
-				</header>
 				<p>
 					Neste tópico, iremos tratar sobre os principais elementos que constituem as redes de sensores sem
 					fio. Nas RSSFs,
@@ -284,72 +237,7 @@
 					os quais são interfaces de comunicação wireless e nodos para comunicação com outras partes no
 					sistema, as quais conhecemos como nodos gateway.
 				</p>
-				
-				<ul>
-					<div>
-						<h4>
-							<li id="two.1.1">Estrela</li>
-						</h4>
-						<p>
-							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-								nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-								ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-								urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-								amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-								Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-							</p>
-					</div>
-
-					<div>
-						<h4>
-							<li id="two.1.2">Árvore ou Cluster</li>
-						</h4>
-						
-						<p>
-							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-						</p>
-					</div>
-						
-					<div>
-						<h4>
-							<li id="two.1.3">Malha</li>
-						</h4>
-						
-						<p>
-							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-								nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-								ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-								urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-								amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-								Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-						</p>
-					</div>
-				</ul>
-
-			</section>
+			</header>
 
 			<section>
 				<header>
@@ -467,38 +355,8 @@
 
 		</div>
 	</section>
-	
-	<!-- [ ] Three - Algoritmos -->
-	<section id="three" class="wrapper style2">
 
-		<div class="container">
-			<header class="major">
-				<h2>Algoritmos</h2>
-			</header>
-
-			<section>
-				<header>
-					<h3>Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</h3>
-				</header>
-
-				<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
-			</section>
-
-		</div>
-	</section>
-
-	<!-- [ ] Four - Aplicações -->
+	<!-- [OK] Four - Aplicações -->
 	<section id="four" class="wrapper style2">
 
 		<div class="container">
@@ -728,7 +586,7 @@
 				</p>
 			</header>
 
-			<section>
+			<section id="five.1">
 				<header class="align">
 					<h3>Wi-fi - IEEE 802.11</h3>
 				</header>
@@ -748,7 +606,7 @@
 				</p>
 			</section>
 
-			<section>
+			<section id="five.2">
 				<header>
 					<h3>Bluetooth - IEEE 802.15.1</h3>
 				</header>
@@ -769,7 +627,7 @@
 				</p>
 			</section>
 
-			<section>
+			<section id="five.3">
 				<header>
 					<h3>ZigBee - IEEE 802.15.4</h3>
 				</header>
@@ -790,7 +648,7 @@
 				</p>
 			</section>
 
-			<section>
+			<section id="five.4">
 				<header>
 					<h3>Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</h3>
 				</header>
@@ -811,7 +669,28 @@
 				</p>
 			</section>
 
-			<section>
+			<section id="five.5">
+				<header>
+					<h3>Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</h3>
+				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+				</p>
+			</section>
+
+			<section id="five.6">
 				<header>
 					<h3>TCP/IP em Rede de Sensores Sem Fio</h3>
 				</header>
@@ -860,7 +739,7 @@
 		</div>
 	</section>
 	
-	<!-- [ ] Seven - Perguntas -->
+	<!-- [OK] Seven - Perguntas -->
 	<section id="seven" class="wrapper style2">
 
 		<div class="container">
@@ -869,53 +748,48 @@
 			</header>
 			<section>
 				<header>
-					<h2>
-						<p>Pergunta 1</p>
-					</h2>
+					<h2> Pergunta 1 </h2>
 				</header>
-				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<h3> Quais são algumas das possíveis aplicações de Redes de Sensores Sem Fio? </h3>
+				<span> Cidades inteligentes, monitoramento climático e ambiental, saúde digital, monitoramento remoto, redes corporais sem fio, telemedicina e uso militar. </span>
 				<br><br>
 			</section>
 			<section>
 				<header>
-					<h2>
-						<p>Pergunta 2</p>
-					</h2>
+					<h2> Pergunta 2	</h2>
 				</header>
-				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<h3> Qual a relevância do consumo de energia em Redes de Sensores Sem Fio? E qual é o papel dos protocolos de roteamento na eficiência energética? </h3>
+				<span> Os nodos de uma Rede de Sensores Sem Fio possuem recursos limitados, principalmente pouca reserva de energia, o que faz com que um protocolo de roteamento que gere alta eficiência energética seja não apenas uma escolha, mas a melhor opção para que não haja falha em um nó e, consequentemente, menor tempo de vida útil da rede. </span>
 				<br><br>
 			</section>
 			<section>
 				<header>
-					<h2>
-						<p>Pergunta 3</p>
-					</h2>
+					<h2> Pergunta 3	</h2>
 				</header>
-				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<h3> Quais são os protocolos mais utilizados em Redes de Sensores Sem Fio? </h3>
+				<span> Wi-fi - IEEE 802.11, Bluetooth - IEEE 802.15.1, ZigBee - IEEE 802.15.4, Redes de Sensores Sem Fio de Longas Distâncias (LDWSN) e TCP/IP em Rede de Sensores Sem Fio.<span>
 				<br><br>
 			</section>
 			<section>
 				<header>
-					<h2>
-						<p>Pergunta 4</p>
-					</h2>
+					<h2> Pergunta 4	</h2>
 				</header>
-				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<h3> Qual a importância dos protocolos de roteamento para Redes de Sensores Sem Fio? </h3>
+				<span>  Devido aos protocolos de roteamento os nós são auto-organizados e os pacotes são entregues por rotas ótimas de acordo com os algoritmos declarados no protocolo utilizado. </span>
 				<br><br>
 			</section>
 			<section>
 				<header>
-					<h2>
-						<p>Pergunta 5</p>
-					</h2>
+					<h2> Pergunta 5 </h2>
 				</header>
-				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<h3> O que garantimos ao escolher o mais correto Protocolo de Roteamento em uma Redes de Sensores Sem Fio? </h3>
+				<span> Garantimos não apenas o desempenho da rede, mas também o aumento de tolerância a falhas, reduzimos os custos de implantação e manutenção e proporcionamos uma comunicação mais estável. </span>
 				<br><br>
 			</section>
 		</div>
 	</section>
 
-	<!-- [ ] Eight - Bibliografia -->
+	<!-- [OK] Eight - Bibliografia -->
 	<section id="eight" class="wrapper style2">
 		<div class="container">
 			<header class="major">
