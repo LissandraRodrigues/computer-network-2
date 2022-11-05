@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title> </title>
+	<title> Protocolos </title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -20,36 +20,52 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-xlarge.css" />
 	</noscript>
+
+	<style>
+		p, h5 {
+			text-align: justify;
+		}
+		.figure-box {
+			text-align: center;
+		}
+		.figure {
+			margin: auto;
+			border-radius: 20px;
+		}
+	</style>
+
 </head>
 
 <body class="landing">
 
-	<!-- Header -->
+	<!-- [ ] Header -->
 	<header id="header" class="alt skel-layers-fixed">
-
 		<nav id="nav">
 			<ul>
+
 				<li>
 					<b><a style="color:black" href="index.html">Home</a></b>
 				</li>
+
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#one">Introdução</a></b>
 					<ul>
 						<li><a href="#one.2">O que são Redes de Sensores Sem Fio?</a></li>
 						<li><a href="#one.3">Como funciona o Roteamento de Redes de Sensores Sem Fio?</a></li>
 						<li>
-							<a class="icon fa-angle-right" href=""> Características das Redes de Sensores Sem Fio </a>
+							<a class="icon fa-angle-right" href="">Características das Redes de Sensores Sem Fio</a>
 							<ul>
-								<li><a href="#one.3.1">Características gerais</a></li>
+								<li><a href="#one.3.1">Características Gerais</a></li>
 								<li><a href="#one.3.2">Segurança</a></li>
-								<li><a href="#one.3.3">Eficiência energética</a></li>
+								<li><a href="#one.3.3">Eficiência Energética</a></li>
 							</ul>
 						</li>
 					</ul>
 				</li>
+
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#two">Componentes e Padrões</a></b>
 					<ul>
 						<li>
-							<a class="icon fa-angle-right" href="#two"> Topologia de Redes de Sensores Sem Fio </a>
+							<a class="icon fa-angle-right" href="#two">Topologia de Redes de Sensores Sem Fio</a>
 							<ul>
 								<li><a href="#two.1.1">Estrela</a></li>
 								<li><a href="#two.1.2">Árvore ou Cluster</a></li>
@@ -57,25 +73,29 @@
 							</ul>
 						</li>
 						<li><a href="#two.2">Nodos Sensores</a></li>
-						<li><a href="#two.3">Nodos de Interface com outras Redes (Gateways)
-							</a></li>
+						<li><a href="#two.3">Nodos de Interface com outras Redes (Gateways)</a></li>
 						<li><a href="#two.4">Interconexão de Sensores e Atuadores</a></li>
-
 					</ul>
 				</li>
-				<li><b><a class="icon fa-angle-down" style="color:black" href="#three">Algorítmos</a></b>
+
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#three">Algoritmos</a></b>
 					<ul>
 						<li><a href="#three">Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</a></li>
 					</ul>
 				</li>
+
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#four">Aplicações</a></b>
 					<ul>
-						<li><a href="#four">Cidades Inteligentes</a></li>
-						<li><a href="#four">Monitoramento Climático e Ambiental</a></li>
-						<li><a href="#four">Saúde Digital</a></li>
-						<li><a href="#four">Uso militar</a></li>
+						<li><a href="#four.1">Cidades Inteligentes</a></li>
+						<li><a href="#four.2">Monitoramento Climático e Ambiental</a></li>
+						<li><a href="#four.3">Saúde Digital</a></li>
+						<li><a href="#four.4">Monitoramento Remoto</a></li>
+						<li><a href="#four.5">Redes Corporais Sem Fio</a></li>
+						<li><a href="#four.6">Telemedicina</a></li>
+						<li><a href="#four.7">Uso militar</a></li>
 					</ul>
 				</li>
+
 				<li><b><a class="icon fa-angle-down" style="color:black" href="#five">Protocolos</a></b>
 					<ul>
 						<li><a href="#five">Wi-fi - IEEE 802.11</a></li>
@@ -85,19 +105,26 @@
 						<li><a href="#five">TCP/IP em Rede de Sensores Sem Fio</a></li>
 					</ul>
 				</li>
-				<li><b><a style="color:black" href="#six">Conclusão</a></b></li>
-				<li><b><a style="color:black" href="#seven">Perguntas</a></b></li>
-				<li><b><a style="color:black" href="#eight">Bibliografia</a></b></li>
+
+				<li><b><a class="icon fa-angle-down" style="color:black" href="#">Outros</a></b>
+					<ul>
+						<li><a href="#six">Conclusão</a></li>
+						<li><a href="#seven">Perguntas</a></li>
+						<li><a href="#eight">Bibliografia</a></li>
+						<li><a href="#nine">Declaração de Direitos Autorais</a></li>
+					</ul>
+				</li>
+
 			</ul>
 		</nav>
 	</header>
 
-	<!-- Banner -->
+	<!-- [OK] Banner -->
 	<section id="banner">
 		<div class="inner">
-			<h2>Protocolos de Roteamento <br>para Redes de Sensores sem fio</h2>
+			<h2>Protocolos de Roteamento <br>para Redes de Sensores Sem fio</h2>
 			<b>
-				<p style="color:white">Autores: Luiza Lissandra & Lucas Tavares</p>
+				<p style="color:white; text-align: center;">Autores: Luiza Lissandra & Lucas Tavares</p>
 			</b>
 			<ul class="actions">
 				<br>
@@ -106,448 +133,460 @@
 		</div>
 	</section>
 
-	<!-- One -->
-	<section id="one" class="wrapper style1">
+	<!-- [ ] One - Introdução -->
+	<section id="one" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
 				<h2>Introdução</h2>
 			</header>
-			<section>
-				<header class="align">
-					<h3 id="one.2">O que são Redes de Sensores Sem Fio?</h3>
-					<p> Uma rede de sensores sem fio (RSSF/WSN - Wireless Sensor Network) é composta por sensores
-						autônomos
-						distribuídos no espaço
-						para fins de monitoramento de condições físicas ou ambientais, como temperatura, som e pressão,
-						de forma a encaminhar as informações coletadas para um destino por meio da infraestrutura de
-						rede.
-						Uma vez que os nós sensores são dispositivos com restrição energética, a importância de
-						protocolos de
-						roteamento com eficiência de energia é uma preocupação emergente. A fim de mitigar o consumo
-						energético,
-						recentemente, diversos protocolos de roteamento foram propostos.
-						<br><br>
-						Uma RSSF é composta por um grande número de nós computacionais pequenos
-						e de preço relativamente baixo que transmitem as informações com alto valor comercial coletadas
-						para uma estação base
-						para processamento, aonde terão suas valiosas informações utlizadas. Podemos ver por meio da
-						Figura 1 e 2, um simples exemplo de RSSF. Nos últimos anos,
-						, as redes de sensores sem fio foram centro de atenção da pesquisa acadêmica.
-						O principal fator por trás da maioria dos esforços de pesquisa
-						no campo das RSSFs é porque estas auxiliam em uma grande parte dos problemas da vida real, como
-						segurança, assistência médica e setor de defesa. Dentro deste contexto, uma série de
-						direções de pesquisa estão disponíveis, incluindo design corporal, estratégia de roteamento,
-						procedimentos para gerenciamento de energia, questões de segurança e capacidade de detecção dos
-						nós sensores. O tempo de vida dos nós sensores é uma grande questão para as RSSFs, uma vez que
-						os nós
-						sensores possuem recursos de energia muito limitados. O protocolo de roteamento desempenha um
-						papel importante no tempo de vida dos nós sensores. O roteamento em RSSF não é semelhante a
-						outras redes sem fio devido a várias propriedades exclusivas do nó sensor, como restrições de
-						transmissão de energia, realizações de processamento, informações coletadas de vários nós para
-						uma única estação base, improbabilidade de endereço global e implantação aleatória de nós
-						sensores, assim como outros. Para acomodar esses tipos de propriedades, diferentes tipos de
-						protocolos de
-						roteamento foram desenvolvidos. O objetivo final desses protocolos de roteamento é alcançar a
-						eficiência energética e maximizar a vida útil geral da rede.
-						<br><br>
 
-						Estes protocolos desempenham um papel significativo nas RSSF. Graças a eles, os nós são
-						auto-organizados e os pacotes são entregues por rotas
-						ótimas de acordo com os algoritmos declarados no protocolo utilizado na rede. Com a ajuda de
-						protocolos de roteamento, é possível otimizar o uso dos recursos da rede de sensores, como
-						consumo de energia, uso de tempo de processador, memória, etc. Portanto, o uso de protocolos de
-						roteamento eficientes permite maximizar a vida útil da rede. Isso é muito importante para a
-						RSSF, pois os nós são autônomos e o tempo de vida da rede é definido como o tempo desde o início
-						de sua operação até o momento em que o primeiro nó falha. Na maioria dos casos, a falha dos nós
-						da rede é devido ao esgotamento da fonte de energia.
-						<br><br>
-
+			<section>					
+					<p>
+						Para abordar sobre Protocolos de Roteamento para Redes de Sensores Sem Fio se faz necessária uma breve introdução sobre o que são Redes de Sensores Sem Fio para que assim fique mais clarificado o papel e importância dos Protocolos de Roteamento.
 					</p>
-				</header>
-			</section>
-			<div class="slider">
-				<span class="nav-previous"></span>
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide">
-							<img height="365" src="images/sauhsauh1.jpg" alt="" />
-						</div>
-						<div class="slide">
-							<img height="375" src="images/figura1.jpg" alt="" />
-						</div>
+					<br><br>
+
+					<h3 id="one.2">O que são Redes de Sensores Sem Fio?</h3>
+
+					<p> 	
+						As Redes de Sensores Sem Fio (RSSF/WSN - Wireless Sensor Network) têm sido centro de atenção da pesquisa acadêmica nos últimos anos e são compostas por sensores autônomos distribuídos no espaço como um grande número de nós computacionais para fins de monitoramento de condições físicas ou ambientais, como temperatura, som e pressão, de forma a encaminhar as informações coletadas para um destino por meio da infraestrutura de rede. Uma vez que os nós sensores são dispositivos com restrição energética, a importância de protocolos de roteamento com eficiência de energia é uma preocupação emergente. A fim de mitigar o consumo energético, recentemente, diversos protocolos de roteamento foram propostos. Podemos ver por meio da Figura 1 abaixo, um exemplo de arquitetura de Protocolo de Roteamento de RSSF. 
+					</p>
+
+					<div class="figure-box">
+						<img class="figure" height="365" src="images/figura_1.PNG" alt="Arquitetura de Protocolo de Roteamento de Redes Sem Fio." />
+						<br><br>
+						<span>  Figura 1: Arquitetura de Protocolo de Roteamento de Redes Sem Fio. [1]</span>
 					</div>
-				</div>
-				<span class="nav-next"></span>
-			</div>
+					<br><br>
+
+					<p>
+						O principal motivador por trás da maioria dos esforços de pesquisa no campo das RSSFs é devido estas auxiliarem em uma grande parte dos problemas da vida real, como segurança, assistência médica e setor de defesa. Dentro deste contexto, uma série de direções de pesquisa estão disponíveis, incluindo design corporal, estratégia de roteamento, procedimentos para gerenciamento de energia, questões de segurança e capacidade de detecção dos nós sensores. 
+					</p>						
+			</section>
+			
 			<br><br>
 
 			<section>
 				<header>
-					<h3 id="one.3">Como funciona o Roteamento de Redes de Sensores Sem Fio? </h3>
-					<p> <b>Acho que é melhor tirar essa parte. Ta mt genérica</b></p>
+					<h3 id="one.3">Como funciona o Roteamento de Redes de Sensores Sem Fio?</h3>
 				</header>
+
+				<p> 
+					O roteamento em RSSF têm suas particularidades derivadas de propriedades exclusivas do nó sensor, como restrições de transmissão de energia, realizações de processamento, informações coletadas de vários nós para uma única estação base, improbabilidade de endereço global e implantação aleatória de nós sensores, assim como outros. Para acomodar essas inúmeras características, diferentes tipos de protocolos de roteamento foram desenvolvidos, veja a figura 2, com o objetivo de alcançar a eficiência energética e maximizar a vida útil geral da rede.
+				</p>
+
+				<div class="figure-box">
+					<img class="figure" height="365" src="images/figura_2.PNG" alt="Desenvolvimento de Protocolos de Roteamento de Redes Sem Fio ao longo dos anos." />
+					<br><br>
+					<span> Figura 2: Desenvolvimento de Protocolos de Roteamento de Redes Sem Fio ao longo dos anos. [1]</span>
+				</div>
+				
+				<br><br>
+
+				<p>
+					Estes protocolos desempenham um papel significativo nas RSSF, pois, graças a eles, os nós são auto-organizados e os pacotes são entregues por rotas ótimas de acordo com os algoritmos declarados no protocolo utilizado na rede. Com o auxílio de protocolos de roteamento, é possível otimizar o uso dos recursos da rede de sensores, como consumo de energia, uso de tempo de processador, memória, etc., com isso o uso de protocolos de roteamento eficientes permite maximizar a vida útil da rede como um todo. Esse fato é de grande importância para a RSSF, pois os nós são autônomos e o tempo de vida da rede é definido como o tempo desde o início de sua operação até o momento em que o primeiro nó falha. E na maioria dos casos, a falha dos nós da rede é devido ao esgotamento da fonte de energia.
+				</p>
+
+				<p>
+					Para garantir o funcionamento ininterrupto de qualquer rede, e de RSSFs em particular, é necessário escolher o protocolo de roteamento correto e tal escolha não apenas garantirá o desempenho da rede, mas também aumentará sua tolerância a falhas, reduzirá os custos de implantação e manutenção e proporcionará uma comunicação mais estável. Este trabalho acadêmico fornecerá uma visão geral de vários protocolos populares usados ​​em RSSF, destacando seus pontos fortes e fracos.
+				</p>
+
 			</section>
+
 			<br><br>
+
 			<section>
 				<header>
 					<h3>Características das Redes de Sensores Sem Fio</h3>
 				</header>
+
 				<ul>
 					<h4>
 						<li id="one.3.1">Características gerais</li>
 					</h4>
+
 					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
 					</p>
+
 					<h4>
 						<li id="one.3.2">Segurança</li>
 					</h4>
 
 					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
 					</p>
+
 					<h4>
 						<li id="one.3.3">Eficiência energética</li>
 					</h4>
 
 					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+						<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
 					</p>
 				</ul>
 
 			</section>
+
 		</div>
 	</section>
 
-	<!-- Two -->
-	<section id="two" class="wrapper style1">
+	<!-- [ ] Two - Componentes e Padrão -->
+	<section id="two" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
 				<h2>Componentes e Padrões</h2>
 			</header>
+
 			<section>
 				<header>
 					<h3>Topologia de Redes de Sensores Sem Fio</h3>
-					<p>Neste tópicos iremos tratar sobre os principais elementos que constituem as redes de sensores sem
-						fio. Descreveremos os protocolos padronizados
-						mais importantes, assim como as tecnologias com maior uso na construção destas redes. Nas RSSFs,
-						os componentes mais importantes são os nodos sensores,
-						os quais são interfaces de comunicação wireless e nodos para comunicação com outras partes no
-						sistema, as quais conhecemos como nodos gateway.
-					</p>
 				</header>
+				<p>
+					Neste tópico, iremos tratar sobre os principais elementos que constituem as redes de sensores sem
+					fio. Nas RSSFs,
+					os componentes mais importantes são os nodos sensores,
+					os quais são interfaces de comunicação wireless e nodos para comunicação com outras partes no
+					sistema, as quais conhecemos como nodos gateway.
+				</p>
+				
 				<ul>
-					<h4>
-						<li id="two.1.1">Estrela</li>
-					</h4>
-					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
-					<h4>
-						<li id="two.1.2">Árvore ou Cluster</li>
-					</h4>
+					<div>
+						<h4>
+							<li id="two.1.1">Estrela</li>
+						</h4>
+						<p>
+							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+								nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+								ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+								urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+								amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+								Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+							</p>
+					</div>
 
-					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
-					<h4>
-						<li id="two.1.3">Malha</li>
-					</h4>
-
-					<p>
-					<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
-					</p>
+					<div>
+						<h4>
+							<li id="two.1.2">Árvore ou Cluster</li>
+						</h4>
+						
+						<p>
+							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+							nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+							ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+							urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+							amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+							Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+							egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+							sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+							aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+						</p>
+					</div>
+						
+					<div>
+						<h4>
+							<li id="two.1.3">Malha</li>
+						</h4>
+						
+						<p>
+							<h5>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+								nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+								ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+								urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+								amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+								Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+								egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+								sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+								aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam</h5>
+						</p>
+					</div>
 				</ul>
 
 			</section>
+
 			<section>
 				<header>
 					<h3 id="two.2">Nodos Sensores</h3>
-					<p>
-						Podemos dizer que os nodos sensores são dispositivos autônomos os quais possuem em suas
-						arquiteturas a capacidade de sensoriamento,
-						processamento e comunicação. Estes referidos nodos quando dispostos em rede ad hoc, pode-se
-						dizer que trata-se de uma rede de sensores.
-						Estes nodos captam os dados pelos sensores, os processa localmente ou junto a nodos vizinhos,
-						tal que envia-se as informações diretamente para o usuário
-						ou, como é de mais costume, para um data sink. Dessa forma, fica clara uma coisa: um nodo na
-						rede tem fundamentalmente tarefas distintas; isto é, sensoriamento do local,
-						processamento de informação e também responsabilidades relacionadas com a veiculação em um
-						esquema de retransmissão multi-hop,
-						tal como é possível ver na figura 2.
-						<br>
-						Atualmente os sensores possuem dimensões não maiores que um dedo humano, podendo ser até mesmo
-						possuir comprimento da ordem de centímetros.
-						Todavia, é verdade que os tamanhos podem variar de tamanho, podendo ser do tamanho de um um
-						punho fechado, tal como podemos ver na figura 3.
-
-					</p>
-
 				</header>
+				<p>
+					Podemos dizer que os nodos sensores são dispositivos autônomos os quais possuem em suas
+					arquiteturas a capacidade de sensoriamento,
+					processamento e comunicação. Estes referidos nodos quando dispostos em rede ad hoc, pode-se
+					dizer que trata-se de uma rede de sensores.
+					Estes nodos captam os dados pelos sensores, os processa localmente ou junto a nodos vizinhos 
+					e envia as informações diretamente para o usuário
+					ou, como é de mais costume, para um data sink. Dessa forma, fica clara uma coisa: um nodo na
+					rede tem fundamentalmente tarefas distintas; isto é, sensoriamento do local,
+					processamento de informação e também responsabilidades relacionadas com a veiculação em um
+					esquema de retransmissão multi-hop,
+					tal como é possível ver abaixo na figura 3.
+				</p>
+				<br>
+				
+				<div class="figure-box">
+					<img class="figure" height="365" src="images/figura_3.PNG" alt="Esquema de retransmissão multi-hop" />
+					<br><br>
+					<span>  Figura 3: Esquema de retransmissão multi-hop. </span>
+				</div>
+
+				<br><br>
+				<p>
+					Atualmente, os sensores possuem dimensões não maiores que um dedo humano, podendo até mesmo
+					possuir comprimento da ordem de centímetros, porém os tamanhos também podem variar e ser da grossura de um
+					punho fechado, tal como podemos ver abaixo na figura 4.
+				</p>
+
+				<div class="figure-box">
+					<img class="figure" height="365" src="images/figura_4.PNG" alt="Tamanhos diversificados de sensores" />
+					<br><br>
+					<span>  Figura 4: Tamanhos diversificados de sensores. </span>
+				</div>
+				<br><br>
+
 			</section>
+
 			<section>
 				<header>
 					<h3 id="two.3">Nodos de Interface com outras redes (Gateways)</h3>
-					<p>
-						É por meio de nodos conhecidos como gateways que são feitas conexões das RSSF com outras redes.
-						Antes de alcançar o gateway, os dados caminham a rede. Só então estes dados são encamihados por
-						uma rede,
-						tal como a internet, por exemplo, até um destino final em que é executado um programa com os
-						dados de origem. É possível ver de forma simplificada em um esquema na figura 4.0, a qual
-						exemplifica uma RSSF qualquer conectada a uma rede não móvel por meio de um gateway. Já a figura
-						5.0
-						nos mostra de forma ilustrativa uma RSSF a qual possui um nodo sink e um gateway de forma que
-						fica claro a pluralidade de componentes.
-					</p>
 				</header>
+
+				<p>
+					É por meio de nodos conhecidos como gateways, "porta de entrada" em português, que são feitas conexões das RSSF com outras redes.
+					Antes de alcançar o gateway, os dados transitam na rede. Só então tais dados são encaminhados por
+					uma rede,
+					tal como a Internet, por exemplo, até um destino final em que é executado um programa com os
+					dados de origem. É possível ver de forma simplificada em um esquema abaixo na figura 5, a qual
+					exemplifica uma RSSF qualquer conectada a uma rede não móvel por meio de um gateway.
+				</p>
+				
+				<div class="figure-box">
+					<img class="figure" style="width:80%;height:70%" height="365" src="images/figura_5.PNG" alt="Conexão através de gateway" />
+					<br><br>
+					<span>  Figura 5: Conexão através de gateway. </span>
+				</div>
+				<br><br>
+
+				<p>
+					Já a figura 6 nos mostra de forma ilustrativa uma RSSF a qual possui um nodo sink e um gateway de forma que
+					fica clara a pluralidade de componentes.
+				</p>
+
+				<div class="figure-box">
+					<img class="figure" height="365" src="images/figura_6.PNG" alt="Nodo e gateway" />
+					<br><br>
+					<span>  Figura 6: Nodo e gateway. </span>
+				</div>
+				<br><br>
 			</section>
+
 			<section>
 				<header>
 					<h3 id="two.4">Interconexão de Sensores e Atuadores</h3>
-					<p>
-						Os transdutores, os quais nos referimos como sensores e atuadores, tem papel de grande
-						importancia e
-						aplicabilidade em vários contextos. Tal fato tem gerado uma forte motivação para o
-						desenvolvimento de
-						vários tipos de transdutores o quais não possuem facilidade de interconexão de forma eficaz e
-						barata.
-						Atualmente existem diversas soluções de sensores os quais possuem vantagens/desvantagens, visto
-						que
-						depende-se apenas do emprego de cada sensor para um determinado fim. Nesse contexto, uma solução
-						existente é utilizar comunicação digital entre os transdutores os quais possuem um
-						microprocessador
-						que trata os dados da transmissão. É capaz disto ser realizado de muitas maneiras uma vez que
-						existem
-						distintos protocolos de comunicação para as camadas de enlace e também para a física. Dessa
-						forma, portanto,
-						é viável desenvolver transdutores para lidar com diferentes protocolos de comunicação. Todavia,
-						de forma
-						sensata, é possível dizer que esta não é uma solução possível, por conta das eventuais
-						quantidades de permutações
-						existentes.
-						Foi então que o padrão IEEE 1451 surgiu como proposta para resolver isto. Este configura uma
-						interface de
-						comunicação para transdutores. Podemos ver o padrão IEEE 1451 na figura 6.
-
-					</p>
 				</header>
-			</section>
-			<div class="slider">
-				<span class="nav-previous"></span>
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide">
-							<img height="365" length="100" src="images/fig2.png" alt="" />
-						</div>
-						<div class="slide">
-							<img height="365" length="100" src="images/fig3.png" alt="" />
-						</div>
-						<div class="slide">
-							<img height="365" length="100" src="images/fig4.png" alt="" />
-						</div>
-						<div class="slide">
-							<img height="365" length="100" src="images/fig5.png" alt="" />
-						</div>
-						<div class="slide">
-							<img height="365" length="100" src="images/fig6.png" alt="" />
-						</div>
 
+				<p>
+					Os transdutores, os quais nos referimos como sensores e atuadores, têm papel de grande
+					importância e
+					aplicabilidade em vários contextos. Tal fato tem gerado uma forte motivação para o
+					desenvolvimento de
+					vários tipos de transdutores em que não há facilidade de interconexão de forma eficaz e
+					barata.
+					Atualmente, existem diversas soluções de sensores os quais possuem vantagens/desvantagens, visto
+					que
+					depende-se apenas do emprego de cada sensor para um determinado fim. Nesse contexto, uma solução
+					existente é utilizar comunicação digital entre os transdutores os quais possuem um
+					microprocessador
+					que trata os dados da transmissão. Esse procedimento pode ser realizado de muitas maneiras uma vez que
+					existem
+					distintos protocolos de comunicação para as camadas de enlace e também para a física. Dessa
+					forma, portanto,
+					é viável desenvolver transdutores para lidar com diferentes protocolos de comunicação. Todavia,
+					de forma
+					sensata, é possível dizer que esta não é uma solução possível, por conta das eventuais
+					quantidades de permutações
+					existentes.
+					Resultante disso foi o surgimento do padrão IEEE 1451 como proposta para resolver este problema. Este padrão configura uma
+					interface de
+					comunicação para transdutores e podemos vê-lo na figura 7.
+				</p>
+
+					<div class="figure-box">
+						<img class="figure" height="365" src="images/figura_7.PNG" alt="Padrão IEEE 1451" />
+						<br><br>
+						<span>  Figura 7: Padrão IEEE 1451. </span>
 					</div>
-				</div>
-				<span class="nav-next"></span>
-			</div>
+
+			</section>
 
 		</div>
 	</section>
-	<!-- Three -->
-
-	<section id="three" class="wrapper style1">
+	
+	<!-- [ ] Three - Algoritmos -->
+	<section id="three" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
-				<h2>Algorítmos</h2>
+				<h2>Algoritmos</h2>
 			</header>
+
 			<section>
 				<header>
 					<h3>Hierarquia de Cluster Adaptável de Baixa Energia (Leach)</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+
+				<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 			</section>
-			<div class="slider">
-				<span class="nav-previous"></span>
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide">
-							<img src="images/slide01.jpg" alt="" />
-						</div>
-						<div class="slide">
-							<img src="images/slide02.jpg" alt="" />
-						</div>
-						<div class="slide">
-							<img src="images/slide03.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<span class="nav-next"></span>
-			</div>
 
 		</div>
 	</section>
 
-	<!-- Four -->
-
-	<section id="four" class="wrapper style1">
+	<!-- [ ] Four - Aplicações -->
+	<section id="four" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
 				<h2>Aplicações</h2>
 			</header>
-			<section>
+
+			<section id="four.1">
 				<header>
-					<h3>Cidades Inteligentes</h3>
-					<p>
-						As RSSFs são amplamente utilizadas em diversas aplicações em nosso
-						cotidiano. Devido à sua relação custo-benefício e rápida implantação, as RSSFs podem ser
-						usadas para proteger
-						cidades inteligentes, fornecendo monitoramento e detecção de eventos naturais em lugares remotos
-						para muitos cenários críticos,
-						incluindo
-						ambientes hostis, áreas de guerra ou áreas sujeitas a desastres naturais, como terremotos,
-						vulcões em
-						erupções e inundações ou a acidentes de grande escala, como explosões de usinas nucleares. Não
-						obstante, podemos ver
-						as redes de sensores sendo implementadas em diversas outras áreas.
-						O aparecimento das redes sem fio abriu o caminho para a realização de novas
-						infraestruturas e aplicações para cidades inteligentes. As redes de sensores sem fio são
-						uma das quais possuem maior relevância em nosso cotidiano entre essas tecnologias. As RSSFs são
-						muito utilizadas em diversas aplicações na vida de uma grande cidade. Neste artigo, veremos três
-						grandes
-						aplicações, que conta além das cidades inteligentes,
-						monitoramento climático, saúde digital e uso militar.
-					</p>
+					<h3> Cidades Inteligentes</h3>
 				</header>
+
+				<p>
+					As RSSFs são amplamente utilizadas em diversas aplicações na vida de uma grande cidade e em nosso
+					cotidiano no geral. Devido à sua relação custo-benefício e rápida implantação, as RSSFs podem ser
+					usadas para proteger
+					cidades inteligentes, fornecendo monitoramento e detecção de eventos naturais em lugares remotos
+					para muitos cenários críticos,
+					incluindo
+					ambientes hostis, áreas de guerra ou áreas sujeitas a desastres naturais, como terremotos,
+					vulcões em
+					erupções e inundações ou a acidentes de grande escala, como explosões de usinas nucleares. Não
+					obstante, podemos ver
+					as redes de sensores sendo implementadas em diversas outras áreas.
+					O aparecimento das redes sem fio abriu o caminho para a realização de novas
+					infraestruturas e aplicações para cidades inteligentes. 
+				</p>
 			</section>
 
-
-			<section>
+			<section id="four.2">
 				<header>
-					<h3>Monitoramento Climático e Ambiental </h3>
-					<p>Aplicações ambientais que exigem monitoramento contínuo das condições ambientais em áreas hostis
-						e remotas podem ser aprimoradas com a utilização de RSSFs. Na Figura 7, podemos ver de forma
-						simplificada
-						e ilustrativa o funcionamento das redes de sensores neste caso. </p>
-					<h5>Monitoramento da água</h5>
-					<p>A água que bebemos ou até mesmo a água do mar é um fator primordial na vida humana, por isso o
-						monitoramento da água é de suma importancia.
-						Os pesquisadores projetaram um aplicativo para avaliar a qualidade da água potável.
-						Eles projetaram um sistema físico cibernético chamado PipeSense, que é um sistema in-pipe
-						para monitoramento de água que utiliza RSSF baseado em RFID (Radio Frequency Identification). A
-						rede pode fornecer informações sobre a demanda de água ou a qualidade da água e várias
-						informações de reparo, como pontos fracos ou vazamentos na tubulação. Os sensores RFID in-pipe
-						coletam informações do sistema e as enviam para os servidores de dados, onde os algoritmos
-						fornecem suporte à decisão.
+					<h3>Monitoramento Climático e Ambiental</h3>
+				</header>
 
-						Outro caso de aplicação foi para
-						evitar danos à flora e fauna de uma piscicultura de alimentos e resíduos fecais, em que os
-						cientistas
-						projetaram uma RSSF subaquática com nós sensores sem fio terrestres capazes de monitorar
-						a poluição da fazenda. Os nós sensores são móveis em um espaço limitado para medir uma área
-						maior.</p>
-					<br>
-					<h5>Monitoramento do ar</h5>
+				<p>
+					Aplicações ambientais que exigem monitoramento contínuo das condições ambientais em áreas hostis
+					e remotas podem ser aprimoradas com a utilização de RSSFs.
+				</p>
+		
+				<section>
+					<header>
+						<h5> - Monitoramento da Água</h5>
+					</header>
+
+					<p>
+							A água que bebemos ou até mesmo a água do mar é um fator primordial na vida humana, por isso, o
+							monitoramento da água é de suma importância. Existem diversas aplicações que já fazem isso, por exemplo, 
+							há um projeto em que pesquisadores desenvolveram um aplicativo para avaliar a qualidade da água potável.
+							Eles projetaram um sistema físico cibernético chamado PipeSense, que é um sistema in-pipe
+							para monitoramento de água que utiliza RSSF baseado em RFID (Radio Frequency Identification). A
+							rede pode fornecer informações sobre a demanda de água ou a qualidade da água e várias
+							informações de reparo, como pontos fracos ou vazamentos na tubulação. Os sensores RFID in-pipe
+							coletam informações do sistema e as enviam para os servidores de dados, onde os algoritmos
+							fornecem suporte à decisão.
+
+							Outro caso de aplicação foi para
+							evitar danos à flora e fauna de uma piscicultura de alimentos e resíduos fecais, em que os
+							cientistas
+							projetaram uma RSSF subaquática com nós sensores sem fio terrestres capazes de monitorar
+							a poluição da fazenda. Os nós sensores são móveis em um espaço limitado para medir uma área
+							maior.
+					</p>
+				</section>
+
+				<section>
+					<header>
+						<h5> - Monitoramento do Ar</h5>
+					</header>
+
 					<p>
 						O ar é certamente um elemento vital para a vida humana. Todavia, atualmente a poluição
 						atmosférica é
 						resultado de muitas atividades humanas modernas. As RSSFs podem ser utilizadas para
-						monitoramento da qualidade do ar em regiões ocupadas, a fim de prevenir doenças e contaminações
-						perigosas ou colocar em risco a saúde das pessoas.
+						monitoramento da qualidade do ar em regiões ocupadas, a fim de prevenir doenças e contaminações.
 						Sistemas combinam sensores de gás junto com uma substância para medir
 						parâmetros de qualidade do ar de gases como ozônio, CO e NO2. Os sensores monitoram em tempo
 						real a qualidade do ar e utilizam o protocolo Zigbee para comunicação de dados.
 					</p>
-					<h5>Monitoramento do vulcões</h5>
+				</section>
+			
+				<section>
+					<header>
+						<h5> - Monitoramento de Vulcões</h5>
+					</header>
+
 					<p>
 						Os vulcões podem ser devastadores a cidades próximas quando entram em erupção. Antes de
-						um vulcão ficar ativo, há muitos sinais de que uma RSSf pode medir, de forma
+						um vulcão ficar ativo, há muitos sinais que uma RSSf pode medir, de forma
 						proativa, a fim de informar os cidadãos próximos sobre a erupção. Quando tal sistema é aplicado,
 						os cidadãos podem proteger suas famílias e pertences, transportando-os para fora da área da
 						erupção, evitando maiores danos. O sistema é de baixo custo, flexível e fácil de implantar e
@@ -556,104 +595,123 @@
 						sensores tiverem recepção de sinal, ou um algoritmo específico quando não tiverem, para coletar
 						timestamps precisos de cada amostra.
 					</p>
-				</header>
+				</section>
 			</section>
-			<br><br>
 
-			<section>
+			<section id="four.3">
 				<header>
 					<h3>Saúde Digital</h3>
-					<p>Na era da tecnologia, a área científica médica enfrenta vários desafios, tais como: custos
-						menores, acometimento de erros médicos,
-						médicos e profissionais da área de saúde mal formados e envelhecimento da população. Os
-						profissionais de saúde estão sob pressão para fornecer melhores serviços
-						apesar dos desafios e fundir em seus trabalhos os avanços tecnológicos.As redes de
-						sensores sem fio fornecem soluções eficientes para o
-						sistema de saúde de forma síncrona.
-						As RSSFs para saúde surgiram nos últimos anos devido aos avanços em sensores médicos e redes de
-						baixa potência. É possível dizer que atualmente estas são componentes significativos da próxima
-						nos serviços de saúde. As RSSFs são baseadas geralmente em Zigbee multi-hop que usam broadcast
-						ou
-						multicast para fornecer informações vitais.
-						A principal característica desse sistema é a entrega rápida e confiável dos dados colidos, fato
-						indispensável quando se trata de sistemas sem tolerância de latência na rede.
-					</p>
-					<h4>Aplicações</h4>
-					<h5> Monitoramento remoto: As RSSFs são usadas com fins demonitoramento de um paciente em um
-						hospital ou em casa, independentemente
-						da localização do paciente. O sistema de monitoramento é corriqueiramente
-						necessário para monitorar constantemente um
-						parâmetro vital do paciente, como pressão arterial, frequência cardíaca e temperatura corporal.
-						Sensores e
-						as dispositivos de localização podem ser usados para rastrear tanto o profissional de saúde
-						quanto o
-						paciente. Devido ao fato de o sistema ser sem fio, não é necessário que o paciente fique
-						limitado em questões de mobilidade.
-
-					</h5>
-					<h5> Redes corporais sem fio: São responsáveis por captarem informações de saúde just-in-time de
-						sensores diferentes. Características importantes dessas redes incluem protocolos de comunicação
-						sem fio,
-						bandas de frequência, largura de banda de dados, criptografia, consumo de energia e mobilidade.
-						Um exemplo
-						de rede corporal sem fio é ilustrada na figura 8. O design dos sensores portáteis permite que o
-						usuário
-						monitore continuamente os dados fisiológicos auxiliados por RSSFs.Esta é útil para
-						casos de emergência, onde envia dados sobre a saúde do paciente para o profissional de saúde.
-						Também pode
-						ajudar as pessoas fornecendo serviços de saúde, como aprimoramento de memória, acesso a dados
-						médicos,
-						detecção de câncer e monitoramento de glicose no sangue.
-					</h5>
-					<h5> Telemedicina: A telemedicina ( ou teleassistência) é uma abordagem médica que
-						permite o trabalho clínico
-						a ser realizado usando tecnologia de informação e comunicação. A telemedicina usando RSSF
-						recentemente tornou-se uma tendência na área da saúde, principalmente após a pandemia do
-						COVID-19.
-						Por meio deste, torna-se possível atendimentos médico remotos. Não obstante, o uso da
-						telemedicina reduz o custo total dos cuidados de saúde, tornando a saúde mais acessível
-						a todos.
-					</h5>
 				</header>
+
+				<p>
+					Na era da tecnologia, a área científica médica enfrenta vários desafios, tais como: custos
+					menores, acometimento de erros médicos,
+					médicos e profissionais da área de saúde mal formados e envelhecimento da população. Os
+					profissionais de saúde estão sob pressão para fornecer melhores serviços
+					apesar dos desafios e fundir em seus trabalhos os avanços tecnológicos. As redes de
+					sensores sem fio fornecem soluções eficientes para o
+					sistema de saúde de forma síncrona.
+					As RSSFs para saúde surgiram nos últimos anos devido aos avanços em sensores médicos e redes de
+					baixa potência e é possível dizer que atualmente esta são componentes significativos da próxima
+					nos serviços de saúde. As RSSFs são baseadas geralmente em Zigbee multi-hop que usam broadcast
+					ou
+					multicast para fornecer informações vitais.
+					A principal característica desse sistema é a entrega rápida e confiável dos dados colidos, fato
+					indispensável quando se trata de sistemas sem tolerância de latência na rede.
+				</p>
+			</section>
+			
+			<section id="four.4">
+				<header>
+					<h3>Monitoramento Remoto</h3>
+				</header>
+
+				<p>
+					As RSSFs são usadas com fins de monitoramento de um paciente em um
+					hospital ou em casa, independentemente
+					da localização do paciente. O sistema de monitoramento é corriqueiramente
+					necessário para monitorar constantemente um
+					parâmetro vital do paciente, como pressão arterial, frequência cardíaca e temperatura corporal.
+					Sensores e
+					os dispositivos de localização podem ser usados para rastrear tanto o profissional de saúde
+					quanto o
+					paciente. Devido ao fato do sistema ser sem fio, não é necessário que o paciente fique
+					limitado em questões de mobilidade.
+				</p>
+			</section>
+			
+			<section  id="four.5">
+				<header>
+					<h3>Redes Corporais Sem Fio</h3>
+				</header>
+
+				<p> 
+					São responsáveis por captarem informações de saúde just-in-time de
+					sensores diferentes. Características importantes dessas redes incluem protocolos de comunicação
+					sem fio,
+					bandas de frequência, largura de banda de dados, criptografia, consumo de energia e mobilidade.
+					Um exemplo
+					de rede corporal sem fio é ilustrada na figura 8 abaixo. O design dos sensores portáteis permite que o
+					usuário
+					monitore continuamente os dados fisiológicos auxiliados por RSSFs sendo assim útil para
+					casos de emergência, onde envia dados sobre a saúde do paciente para um profissional de saúde.
+					Também pode
+					ajudar as pessoas fornecendo serviços de saúde, como aprimoramento de memória, acesso a dados
+					médicos,
+					detecção de câncer e monitoramento de glicose no sangue.
+				</p>
+
+				<div class="figure-box">
+					<img class="figure" height="365" src="images/figura_8.PNG" alt="Exemplo de Rede Corporal Sem Fio" />
+					<br><br>
+					<span>  Figura 8: Exemplo de Rede Corporal Sem Fio. </span>
+				</div>
+				<br><br>
+
 			</section>
 
-			<section>
+			<section id="four.6">
+				<header>
+					<h3>Telemedicina</h3>
+				</header>
+
+				<p> 
+					A telemedicina (ou teleassistência) é uma abordagem médica que
+					permite o trabalho clínico
+					a ser realizado usando tecnologia de informação e comunicação. A telemedicina usando RSSF
+					recentemente tornou-se uma tendência na área da saúde, principalmente após a pandemia do
+					COVID-19.
+					Por meio desta, torna-se possível atendimentos médico remotos. Não obstante, o uso da
+					telemedicina reduz o custo total dos cuidados de saúde, tornando a saúde mais acessível
+					a todos.
+				</p>
+			</section>
+
+			<section  id="four.7">
 				<header>
 					<h3>Uso militar</h3>
-					<p>As RSSFs surgiram como uma ferramenta ótima para
-						fins militares envolvendo detecção de inimigos,
-						vários monitoramento de parâmetros, coleta de informações
-						e, suporte de logística inteligente. Essas redes podem fornecer diferentes
-						serviços para as forças armadas de uma região e dar assistência na vigilância no campo de
-						batalha, auxiliando na detecção de ataques
-						. Dados os recursos possíveis de serem entregues just-in-time,
-						, as RSSFs desempenham um papel importante na
-						operações. Estas redes oferecem diversas vantagens
-						sobre os sensores tradicionais, como tolerância a falhas,
-						robustez e por terem custos reduzidos.
-					</p>
-					<br><br>
-
 				</header>
+
+				<p>
+					As RSSFs surgiram como uma ferramenta ótima para
+					fins militares envolvendo detecção de inimigos,
+					vários monitoramento de parâmetros, coleta de informações
+					e, suporte de logística inteligente. Essas redes podem fornecer diferentes
+					serviços para as forças armadas de uma região e dar assistência na vigilância no campo de
+					batalha, auxiliando na detecção de ataques.
+					Dados os recursos possíveis de serem entregues just-in-time,
+					as RSSFs desempenham um papel importante na
+					operações. Estas redes oferecem diversas vantagens
+					sobre os sensores tradicionais, como tolerância a falhas,
+					robustez e por terem custos reduzidos.
+				</p>
 			</section>
-			<div class="slider">
-				<span class="nav-previous"></span>
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide">
-							<img height="365" src="images/fig8.png" alt="" />
-						</div>
-						
-					</div>
-				</div>
-				<span class="nav-next"></span>
-			</div>
 
 		</div>
 	</section>
-	<!-- Five -->
-
-	<section id="five" class="wrapper style1">
+	
+	<!-- [ ] Five -  Protocolos -->
+	<section id="five" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
@@ -669,129 +727,141 @@
 					fracos.
 				</p>
 			</header>
+
 			<section>
 				<header class="align">
 					<h3>Wi-fi - IEEE 802.11</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+
+				<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam 
+				</p>
 			</section>
 
 			<section>
 				<header>
 					<h3>Bluetooth - IEEE 802.15.1</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam 
+				</p>
 			</section>
 
 			<section>
 				<header>
 					<h3>ZigBee - IEEE 802.15.4</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+				</p>
 			</section>
 
 			<section>
 				<header>
 					<h3>Redes de Sensores Sem Fio de Longas Distâncias (LDWSN)</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+				</p>
 			</section>
 
 			<section>
 				<header>
 					<h3>TCP/IP em Rede de Sensores Sem Fio</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
 				</header>
+				
+				<p>
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+					nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+					ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+					urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+					amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+					Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+					egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+					sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+					aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam 
+				</p>
 			</section>
-
 
 		</div>
 	</section>
-	<!-- Six -->
-
-	<section id="six" class="wrapper style1">
+	
+	<!-- [ ] Six - Conclusão -->
+	<section id="six" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
 				<h2>Conclusão</h2>
 			</header>
-			<section>
-				<header>
-					<h3>Conclusão</h3>
-					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
-						nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
-						ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
-						urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
-						amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-						Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
-						egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
-						sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
-						aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam </p>
-				</header>
-			</section>
+
+			<p>
+				Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+				egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+				sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+				aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet
+				nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem
+				ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas
+				urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit
+				amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+				Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id
+				egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam Lorem ipsum dolor
+				sit amet nullam id egestas urna aliquam Lorem ipsum dolor sit amet nullam id egestas urna
+				aliquam Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+			</p>
 		</div>
 	</section>
-	<!-- Seven -->
-
-	<section id="seven" class="wrapper style1">
+	
+	<!-- [ ] Seven - Perguntas -->
+	<section id="seven" class="wrapper style2">
 
 		<div class="container">
 			<header class="major">
@@ -803,6 +873,8 @@
 						<p>Pergunta 1</p>
 					</h2>
 				</header>
+				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<br><br>
 			</section>
 			<section>
 				<header>
@@ -810,6 +882,8 @@
 						<p>Pergunta 2</p>
 					</h2>
 				</header>
+				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<br><br>
 			</section>
 			<section>
 				<header>
@@ -817,6 +891,8 @@
 						<p>Pergunta 3</p>
 					</h2>
 				</header>
+				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<br><br>
 			</section>
 			<section>
 				<header>
@@ -824,6 +900,8 @@
 						<p>Pergunta 4</p>
 					</h2>
 				</header>
+				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<br><br>
 			</section>
 			<section>
 				<header>
@@ -831,122 +909,86 @@
 						<p>Pergunta 5</p>
 					</h2>
 				</header>
+				<span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aut? Autem, tempora sed. In, cum culpa odit accusantium ad rerum omnis. In dolorem blanditiis consequatur nulla illum sequi reprehenderit minus? </span>
+				<br><br>
 			</section>
 		</div>
 	</section>
 
-	<!-- Eight -->
-	<section id="eight" class="wrapper style1">
+	<!-- [ ] Eight - Bibliografia -->
+	<section id="eight" class="wrapper style2">
 		<div class="container">
 			<header class="major">
-				<h2>Bibliofrafia</h2>
+				<h2>Bibliografia</h2>
 			</header>
 			<section>
 				<ul>
-					<li>Title: Routing Protocols for Wireless Sensor Networks
-						Author(s): Zahoor Khan
-						Publisher: LAP Lambert Academic Publishing
-						Year: 2013
+					<li>
+						[1] Routing protocols for wireless sensor networks: What the literature says? Amit Sarkar and T. Senthil Murugan. Alexandria Engineering Journal, 2016.
 					</li>
 					<li>
-						Title: Advanced Wireless Sensor Network Applications, Protocols and Architectures
-						Author(s): Nagesh Kumar and Yashwant Singh
-						Publisher: -
-						Year: 2017
+						[2] Routing Protocols for Wireless Sensor Networks. Zahoor Khan. LAP Lambert Academic Publishing, 2013.
 					</li>
 					<li>
-						Title: Wireless Sensor Networks
-						Author(s): Ian F. Akyildiz and Mehmet Can Vuran
-						Publisher: Wiley
-						Year: 2010
+						[3] Advanced Wireless Sensor Network Applications. Protocols and Architectures. Nagesh Kumar and Yashwant Singh, 2017.
 					</li>
 					<li>
-						Title: Advanced Routing Protocols for Wireless Networks
-						Author(s): Miguel Elias Mitre Campista and Marcelo G. Rubinstein
-						Publisher: Wiley
-						Year: 2014
+						[4] Wireless Sensor Network. Ian F. Akyildiz and Mehmet Can Vuran, Wiley, 2010.
 					</li>
 					<li>
-						Title: Routing protocols in wireless sensor network
-						Author(s): Vasanthi V.
-						Publisher: LAP LAMBERT Academic Publishing
-						Year: 2016
+						[5] Advanced Routing Protocols for Wireless Networks. Miguel Elias Mitre Campista and Marcelo G. Rubinstein, Wiley, 2014.
 					</li>
 					<li>
-						Title: A Comprehensive Routing Protocol in Wireless Sensor Network Based on Ant Colony
-						Algorithm
-						Author(s): Wenjing Guo, Wei Zhang and Gang Lu
-						Publisher: IEEE
-						Year: 2010
+						[6] Routing protocols in wireless sensor network. Vasanthi V. LAP LAMBERT Academic Publishing, 2016.
 					</li>
 					<li>
-						Title: Wireless sensor networks: Routing protocols and security issues
-						Author(s): Anjali, Shikha and Mohit Sharma
-						Publisher: IEEE
-						Year: 2014
+						[7] A Comprehensive Routing Protocol in Wireless Sensor Network Based on Ant Colony Algorithm. Wenjing Guo, Wei Zhang and Gang Lu. IEEE, 2010.
 					</li>
 					<li>
-						Title: Routing Protocols for Wireless Sensor Networks
-						Author(s): Basil Etefia
-						Publisher: -
-						Year: 2014
+						[8] Wireless sensor networks: Routing protocols and security issues. Anjali, Shikha and Mohit Sharma. IEEE, 2014.
 					</li>
 					<li>
-						Title: Routing protocols for wireless sensor networks: What the literature says?
-						Author(s): Amit Sarkar and T. Senthil Murugan
-						Publisher: Alexandria Engineering Journal
-						Year: 2016
+						[9] Routing Protocols for Wireless Sensor Networks. Basil Etefia. 2014.
 					</li>
 					<li>
-						Title: An Energy Efficient Routing Protocol for Wireless Sensor Networks using A-star
-						Algorithm
-						Author(s): Ali Ghaffari
-						Publisher: Journal of applied research and technology
-						Year: 2014
+						[10] An Energy Efficient Routing Protocol for Wireless Sensor Networks using A-star Algorithm. Ali Ghaffari. Journal of applied research and technology, 2014.
 					</li>
 					<li>
-						Title: Routing Protocols for Wireless Sensor Networks (WSNs)
-						Author(s): Noman Shabbir and Syed Rizwan Hassan
-						Publisher: -
-						Year: 2017
+						[11] Routing Protocols for Wireless Sensor Networks (WSNs). Noman Shabbir and Syed Rizwan Hassan, 2017.
 					</li>
 					<li>
-						Title: Routing Protocols in Wireless Sensor Networks – A Survey
-						Author(s): Shio Kumar Singh, M P Singh and D K Singh
-						Publisher: International Journal of Computer Science & Engineering Survey (IJCSES)
-						Year: 2010
+						[12] Routing Protocols in Wireless Sensor Networks – A Survey. Shio Kumar Singh, M P Singh and D K Singh, International Journal of Computer Science & Engineering Survey (IJCSES), 2010.
 					</li>
 					<li>
-						Title: A survey on routing protocols for wireless sensor networks
-						Author(s): Kemal Akkaya and Mohamed Younis
-						Publisher: -
-						Year: 2003
+						[13] A survey on routing protocols for wireless sensor networks. Kemal Akkaya and Mohamed Younis. 2003.
 					</li>
 					<li>
-						Title: A Survey on Cluster Based Routing Protocols in Wireless Sensor Networks
-						Author(s): Santar Pal Singh and S.C.Sharma
-						Publisher: -
-						Year: 2015
+						[14] A Survey on Cluster Based Routing Protocols in Wireless Sensor Networks. Santar Pal Singh and S.C.Sharma. 2015.
 					</li>
 					<li>
-						Title: An Energy Efficient Level Based Clustering Routing Protocol For Wireless Sensor Networks
-						Author(s): Meenakshi Diwakar and Sushil Kumar
-						Publisher: International Journal of Advanced Smart Sensor Network Systems
-						Year: 2012
+						[15] An Energy Efficient Level Based Clustering Routing Protocol For Wireless Sensor Networks. Meenakshi Diwakar and Sushil Kumar. International Journal of Advanced Smart Sensor Network Systems, 2012.
 					</li>
 		</div>
 	</section>
 
+	<!-- [OK] Nine - Declaração de Direitos Autorais -->
+	<section id="eight" class="wrapper style2">
+	<div class="container">
+		<header class="major">
+			<h2>Declaração de Direitos Autorais</h2>
+		</header>
+		<section stule="text-align=">
+			<p> Este trabalho foi totalmente produzido pelos autores que declaram não terem violado os direitos autorais de terceiros, sejam eles pessoas físicas ou jurídicas. Havendo textos, tabelas e figuras transcritos de obras de terceiros com direitos autorais protegidos ou de domínio público tal como idéias e conceitos de terceiros, mesmo que sejam encontrados na Internet, os mesmos estão com os devidos créditos aos autores originais e estão incluídas apenas com o intuito de deixar o trabalho autocontido. O(s) autor(es) tem(êm) ciência dos Artigos 297 a 299 do Código Penal Brasileiro e também que o uso do artifício de copiar/colar texto de outras fontes e outras formas de plágio é um ato ilícito, condenável e passível de punição severa. No contexto da Universidade a punição não precisa se restringir à reprovação na disciplina e pode gerar um processo disciplinar que pode levar o(s) aluno(s) à suspensão. </p>
+		</section>
+	</section>
 
-
-	<!-- Footer -->
+	<!-- [OK] Footer -->
 	<footer id="footer" style="background-color: grey;">
-
-		<b><span class="copyright" style="color:white">
-				&copy; Copyright. UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ
-				<div class="center">Authors: Luiza Lissandra & Lucas Tavares</div>
-			</span>
-		</b>
+	<b><span class="copyright" style="color:white">
+			&copy; Copyright. UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ
+			<div class="center">Autores: Luiza Lissandra & Lucas Tavares</div>
+		</span>
+	</b>
 	</footer>
 
 </body>
