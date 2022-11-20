@@ -712,7 +712,7 @@
 				<div class="figure-box">
 					<img class="figure" height="365" src="images/figura_9.png" alt="Bluetooth Protocol Stack" />
 					<br><br>
-					<span> Figura 9: Bluetooth Protocol Stack. [22] </span>
+					<span> Figura 9: Pilha de protocolo Bluetooth. [22] </span>
 				</div>
 				<br><br>
 			</section>
@@ -723,62 +723,60 @@
 				</header>
 
 				<p>
-					O ZigBee surge com o propósito de oferecer conectividade de baixo custo e mitigar o consumo de
+					O ZigBee é um padrão de protocolo para comunicações sem fio de curto alcance, assim como o Bluetooth e o Wi-Fi, que surgiu com o propósito de oferecer conectividade de baixo custo e mitigar o consumo de
 					energia para
 					equipamentos que precisam de uma bateria de longa duração, mas não
 					exigem taxas de transferência de dados tão altas quanto as habilitadas por Bluetooth - IEEE
-					802.15.1. Também ZigBee
-					pode ser implementado em redes maiores do que é possível com Bluetooth. Dispositivos wireless
+					802.15.1. ZigBee também
+					pode ser implementado em redes maiores do que é possível com Bluetooth. Dispositivos Wireless
 					compatíveis com ZigBee operam em rádio frequência não licenciada em todo o mundo (868 MHz Europa,
 					915 MHz Américas ou 2,4 GHz global).
 
-					Bluetooth - IEEE 802.15.1, Wi-Fi - IEEE 802.11a/b/g e ZigBee - IEEE 802.15.4 são 3 padrões de
-					protocolo para comunicações
-					sem fio de curto alcance.
-					ZigBee é uma tecnologia recente de comunicação sem fio baseada no padrão sem fio 802.15.4.
-					Comparado com outros padrões de protocolo, a pilha ZigBee oferece uma solução de aplicação prática
+					<br><br>
+
+					Comparado com outros padrões de protocolo, a pilha ZigBee, ilustrada na figura 10, oferece uma solução de aplicação prática
 					em consonância com características de baixa taxa, baixo custo e baixo consumo de energia para as
 					RSSFs. A quantidade de dados do sensor e comandos de controle no espaço inteligente
-					orientados aos robôs de serviço doméstico são pequenos, portanto as redes de sensores sem fio
+					orientados aos robôs de serviço doméstico são pequenos, portanto, as RSSFs
 					requerem
-					uma pequena taxa de transmissão. O ZigBee define a camada de aplicação e a camada de rede,
-					utilizando o padrão IEEE
-					802.15.4
-					como protocolos de comunicação da camada de controle de acesso ao meio (MAC) e da camada física.
-					A estrutura da pilha de protocolos ZigBee é ilustrada na figura 10. As redes sem fio
-					ZigBee consistem em três funções: um coordenador, vários dispositivos finais e roteadores. O
-					coordenador é um FFD especial (full function device) responsável por criar e manter todo o ZigBee
-					PAN (rede de área pessoal). Durante a fase de inicialização da rede, o coordenador varre os canais
+					uma pequena taxa de transmissão. 
+					
+					<br><br>
+
+		      As redes sem fio ZigBee consistem em três funções: um coordenador, vários dispositivos finais e roteadores. O
+					coordenador é um FFD especial (Full Function Device) responsável por criar e manter todo o ZigBee
+					PAN (Rede de Área Pessoal). Durante a fase de inicialização da rede, o coordenador varre os canais
 					de rádio disponíveis para encontrar o canal mais adequado. Normalmente, este será o canal com menos
 					atividade. O coordenador pode ser pré-programado com o PAN ID (Personal Area Network Identifier)
-					​​ou escanear dinamicamente os PAN IDs de rede existentes na mesma frequência e gerar um PAN ID sem
+				​  ou escanear dinamicamente os PAN IDs de rede existentes na mesma frequência e gerar um PAN ID sem
 					conflitos. Após a fase de inicialização do coordenador, o coordenador aguarda as solicitações dos
 					dispositivos ZigBee para ingressar na rede. O dispositivo final pode ser um FFD ou RFD
-					(dispositivo de função de redução). Um FFD pode atuar como qualquer uma das três funções, enquanto
+					(Dispositivo de Função de Redução). Um FFD pode atuar como qualquer uma das três funções, enquanto
 					um RFD pode atuar apenas como o dispositivo final. Durante a inicialização, os dispositivos finais
 					procuram canais disponíveis para identificar a rede diferenciada por seu PAN ID e as
 					solicitações são enviadas ao coordenador da rede que desejam ingressar. O roteador é um dispositivo
 					opcional para ZigBee que pode ser necessário em alguma configuração de rede especial.
 				</p>
+
 				<div class="figure-box">
 					<img class="figure" height="365" src="images/figura_10.png"
 						alt="Structure of ZigBee protocol stack" />
 					<br><br>
-					<span> Figura 10: Structure of ZigBee protocol stack. [23] </span>
+					<span> Figura 10: Estrutura da pilha de protocolo do ZigBee. [23] </span>
 				</div>
 				<br>
-				<p>
 
-					Não obstante, a topologia das RSSFs baseadas em ZigBee incluem rede em estrela simples, rede
-					mesh confiável e rede mesh-tree de grande escala. A Figura 11 ilustra as três estruturas de
-					topologia
-					das redes de sensores sem fio baseadas neste protocolo.
+				<p>
+					Não obstante, a topologia das RSSFs baseadas em ZigBee incluem Rede em Estrela Simples, Rede
+					Mesh Confiável e Rede Mesh-Tree de Grande Escala. A Figura 11 ilustra as três estruturas de
+					topologia das RSSFs baseadas neste protocolo.
 				</p>
+				
 				<div class="figure-box">
 					<img class="figure" height="365" src="images/figura_11.png"
 						alt="Topology structure of ZigBee WSNs." />
 					<br><br>
-					<span> Figura 11: Topology structure of ZigBee WSNs. [24] </span>
+					<span> Figura 11: Estrutura da topologia ZigBee das RSSFs. [24] </span>
 				</div>
 				<br><br>
 			</section>
