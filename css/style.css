@@ -1253,7 +1253,7 @@
 	#banner {
 		background-attachment: scroll,						fixed;
 		background-color: #494d53;
-		background-image: url("images/maxresdefault.jpg"), url("../images/maxresdefault.jpg");
+		background-image: url("images/banner.jpg"), url("../images/banner.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;
